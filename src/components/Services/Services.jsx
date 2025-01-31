@@ -4,7 +4,7 @@ import arrow_icon from "../../assets/arrow_icon.png";
 import services_data from "../../assets/servicesData";
 const Services = () => {
   return (
-    <div className="services">
+    <div id="services" className="services">
       <div className="services-title">
         <h1>My Services</h1>
       </div>

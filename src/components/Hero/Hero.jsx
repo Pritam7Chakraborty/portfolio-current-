@@ -3,7 +3,7 @@ import './Hero.css'
 import profile_img from '../../assets/hero.png'
 function Hero() {
   return (
-    <div className='hero'>
+    <div id='home' className='hero'>
         <img src={profile_img} alt="profile image" />
         <h1>
             <span>Hi, I'm Pritam Chakraborty,</span>
