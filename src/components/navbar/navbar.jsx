@@ -17,6 +17,7 @@ const Navbar = () => {
             href="#home"
             onClick={() => setMenu("home")}
           >
+            
             <p>Home</p>
             {menu === "home" && <img src={underline} alt="underline" />}
           </AnchorLink>
